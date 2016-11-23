@@ -49,7 +49,7 @@
         });
 
         cross.click(function(e) {
-            self.ds.remove(self.id);
+            self.ds.set(self.id, {deleted: true});
             e.stopPropagation();
         });
 
@@ -63,7 +63,7 @@
 
                 timer = setTimeout( function(){
                     if ( confirm("このメッセージを削除しますか？") === true ){
-                        self.ds.remove(self.id);
+                        self.ds.set(self.id, {deleted: true});
                     }
                 }, interval );
 
