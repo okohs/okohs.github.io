@@ -2,67 +2,88 @@
 <html lang="ja-jp">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="/assets/css/normalize.css">
-	<link rel="stylesheet" href="/assets/css/main.css">
-	<link rel="icon" type="image/png" href="/images/favicon.png">
     <title>Success is doing, not wishing. | @okoysm</title>
+	<link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet">
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	<link rel="stylesheet" href="https://use.fontawesome.com/306558d716.css">
+	<link rel="stylesheet" href="assets/css/normalize.css">
+	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-<div class="container">
-	<div id="markup">
-		<article id="content" class="markdown-body">
+	<div class="background-image">
+		<div class="opaque-background">
 			<header class="header">
 				<h1 class="site-title">Success is doing, not wishing.</h1>
-				<p class="site-description">okoysm who web engineer's portfolio</p>
+				<p class="site-description">Shoko (@okoysm) 's portfolio</p>
+				<div class="buttons">
+					<a href="#about" class="button">ABOUT</a>
+					<a href="#skill" class="button">SKILL</a>
+					<a href="#work" class="button">WORK</a>
+					<a href="#contact" class="button">CONTACT</a>
+				</div>
 			</header>
-			<h2>About😃</h2>
-			<h3>しょこ (@okoysm) </h3>
-			<h4>アイコン</h4>
-			<img src="images/avatar.png" alt="okoysm" title="okoysm">
-			<h4>自己紹介😃</h4>
-			<ul>
-				<li>形のあるなしに関わらずモノづくりが好きなエンジニア。</li>
-				<li>サーバーサイドエンジニアとして開発をしたり、コミュニティ（GDG Tokyo, Geek Women Japan）の運営をしたりしています。</li>
-			</ul>
-			<h4>Introduction😃</h4>
-			<ul>
-				<li>I like developing software, community, service, concept ... and so on!</li>
-				<li>I develop software as Server Side Engineer and organize communities (GDG Tokyo, Geek Women Japan).</li>
-			</ul>
-			<h3>history📚</h3>
-			<p>高専卒業後、岐阜から上京し、大手電機メーカーで基幹システムの設計開発者として勤務。その後、より消費者の顔が見える仕事がしたいと考え、Webエンジニアになる。
-				コミュニティ運営はdots.(現TECH PLAY)の女子部を発足きっかけにイベントづくりが楽しくなって今に至っている。</p>
-			<h3>mind🏹</h3>
-			<ul>
-				<li>Success is doing, not wishing.</li>
-				<li>作ったものを使ったユーザーにありがとうと言われるモノづくりがしたい。そのためにはエンドユーザー、管理者など使うユーザーのことを念頭に置いて開発したいし、コンテンツもそれらのユーザーのためになっているものになっているかこだわりたいタイプ。</li>
-				<li>仕事でモノづくりするなら、知らない人に知ってほしい！と思えるコンテンツに携わりたい。</li>
-			</ul>
-			<h2>Skills💪</h2>
-			<ul>
-				<li>😎: Java/PHP/Scala</li>
-				<li>🙂: HTML/CSS/Design</li>
-				<li>🎷: Saxophone</li>
-			</ul>
-			<h2>Works🖥</h2>
-			<ul>
-				<li>I'm Heeeere!!</li>
-				<li>職務経歴書</li>
-				<li>エンジニアのためのデザイン思考入門（コラム参加）</li>
-			</ul>
-			<h2>Contact📩</h2>
-			<ul>
-				<li>twitter</li>
-				<li>Facebook</li>
-				<li>GitHub</li>
-				<li>はてなブログ</li>
-				<li>Medium</li>
-			</ul>
-		</article>
+		</div>
 	</div>
-</div>
+	<section class="about" id="about">
+		<h2 class="heading">ABOUT ME😃</h2>
+		<img src="images/avatar.png" alt="okoysm" title="okoysm">
+		<p class="about-text">
+			形のあるなしに関わらずモノづくりが好きなエンジニア。
+		</p>
+		<p class="about-text">
+			サーバーサイドエンジニアとして開発をしたり、コミュニティ（GDG Tokyo, Geek Women Japan）の運営をしている。高専卒業後、岐阜から上京し、大手電機メーカーで基幹システムの設計開発者として勤務。その後、よりユーザーの顔が見えるサービスを開発したいと考え、Webエンジニアになる。
+			コミュニティ運営はdots.(現TECH PLAY)の女子部を発足きっかけにイベントづくりが楽しくなって今に至っている。
+		</p>
+	</section>
+	<section class="skill" id="skill">
+		<h2 class="heading">SKILLS💪</h2>
+		<div class="skills-wrapper">
+			<div class="skill-box">
+				<i class="skill-icon fa fa-code"></i>
+				<div class="skill-title">CODING</div>
+				<p class="skill-text">サーバーサイド（Java, PHP, Scala）が得意です。フロントエンドでもHTML5, CSS3はできます。</p>
+			</div>
+			<div class="skill-box">
+				<i class="skill-icon fa fa-users"></i>
+				<div class="skill-title">PRESENTATION</div>
+				<p class="skill-text">最も大きな規模だと約100人の前で40分発表しました。登壇回数が多く発表に慣れています。</p>
+			</div>
+			<div class="skill-box">
+				<i class="skill-icon fa fa-headphones"></i>
+				<div class="skill-title">MUSIC</div>
+				<p class="skill-text">テナーサックスを10年以上演奏しています。Classic, Popsなら任せてください。</p>
+			</div>
+		</div>
+	</section>
+	<section class="work" id="work">
+		<h2 class="heading">WORK🖥</h2>
+		<ul>
+			<li>I'm Heeeere!!</li>
+			<li>職務経歴書</li>
+			<li>エンジニアのためのデザイン思考入門（コラム参加）</li>
+		</ul>
+	</section>
+	<section class="mind">
+		<h3 class="sub-heading">my mind🏹</h3>
+		<p class="about-text">
+			自分が作ったものを使ったユーザーにありがとうと言われるモノづくりがしたい。
+		</p>
+		<p class="about-text">
+			そのためにはエンドユーザー、管理者など使うユーザーのことを念頭に置いて開発したいし、コンテンツもそれらのユーザーのためになっているものになっているかこだわりたいタイプ。仕事でモノづくりするなら、知らない人に知ってほしい！と思えるコンテンツに携わりたい。
+		</p>
+	</section>
+	<section class="contact" id="contact">
+		<h2 class="heading">CONTACT📩</h2>
+		<div class="contact-wrapper">
+			<div class="contact-box">
+				<a href="https://twitter.com/okoysm"><i class="contact-icon fa fa-twitter"></i></a>
+				<a href="https://www.facebook.com/okoysm"><i class="contact-icon fa fa-facebook"></i></a>
+				<a href="https://github.com/okoysm"><i class="contact-icon fa fa-github"></i></a>
+				<a href="http://okoysm.hatenablog.jp/"><i class="contact-icon fa fa-rss"></i></a>
+				<a href="https://medium.com/@okoysm"><i class="contact-icon fa fa-medium"></i></a>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">©︎okoysm | 2017</footer>
 </body>
 </html>
