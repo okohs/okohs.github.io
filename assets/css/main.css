@@ -134,8 +134,8 @@ ul {
 
 .works-wrapper {
     display: table;
-    width: 100%;
-    margin-top: 60px;
+    width: 75%;
+    margin: 60px auto;
     table-layout: fixed;
 }
 
