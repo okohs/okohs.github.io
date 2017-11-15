@@ -77,11 +77,6 @@ ul {
     letter-spacing: 2px;
     font-size: 4rem;
 }
-.sub-heading {
-    margin: 30px 0 15px;
-    letter-spacing: 2px;
-    font-size: 3rem;
-}
 
 .about-text {
     margin: 20px 100px;
@@ -166,6 +161,16 @@ ul {
 .button-ghost {
     border: 1px solid #fff;
     background-color: rgba(255, 255, 255, 0.15);
+}
+
+.mind {
+    width: 80%;
+    margin: auto;
+}
+
+.mind-text {
+    margin: 20px auto;
+    line-height: 2;
 }
 
 .contact {
