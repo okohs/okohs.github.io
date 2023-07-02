@@ -217,6 +217,15 @@ ul {
     line-height: 55px;
 }
 
+.contact-icon-list {
+    width: 60px;
+    height: 60px;
+    margin: 10px 30px;
+    color: #c85179;
+    font-size: 4rem;
+    line-height: 55px;
+}
+
 .footer {
     background: #c85179;
     padding: 12px 0;
